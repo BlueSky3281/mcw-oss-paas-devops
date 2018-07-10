@@ -4,7 +4,7 @@
 
     metadata: 
 
-      name: best-for-you-organics 
+      name: best-for-you-organics-sdii
 
     spec: 
 
@@ -16,15 +16,15 @@
 
           labels: 
 
-            app: best-for-you-organics 
+            app: best-for-you-organics-sdii
 
         spec: 
 
           containers: 
 
-          - name: best-for-you-organics 
+          - name: best-for-you-organics-sdii
 
-            image: bestforyouregistryoss.azurecr.io/best-for-you-organics:v1 
+            image: bestforyouregistrysdii.azurecr.io/best-for-you-organics-sdii:v1 
 
             ports: 
 
@@ -44,7 +44,7 @@
 
     metadata: 
 
-      name: best-for-you-organics 
+      name: best-for-you-organics-sdii 
 
     spec: 
 
@@ -56,4 +56,4 @@
 
       selector: 
 
-        app: best-for-you-organics 
+        app: best-for-you-organics-sdii 
